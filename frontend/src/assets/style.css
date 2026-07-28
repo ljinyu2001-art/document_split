@@ -1,0 +1,127 @@
+/* 全局清除默认边距 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    min-height: 100vh;
+
+    background: #f5f7fa;
+
+    font-family:
+    "Microsoft YaHei",
+    Arial,
+    sans-serif;
+
+}
+
+
+/* 页面标题 */
+
+h2 {
+
+    color: #303133;
+
+    font-size: 26px;
+
+    margin-bottom: 30px;
+
+}
+
+
+
+/* Element按钮优化 */
+
+.el-button {
+
+    border-radius: 8px;
+
+}
+
+
+/* 表格圆角 */
+
+.el-table {
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+}
+
+.login-card {
+
+
+    width:420px;
+
+
+    padding:40px;
+
+
+    background:white;
+
+
+    border-radius:15px;
+
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.1);
+
+
+    margin:120px auto;
+
+
+}
+
+.register-box {
+
+
+    width:420px;
+
+
+    padding:40px;
+
+
+    background:white;
+
+
+    border-radius:15px;
+
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.1);
+
+
+    margin:100px auto;
+
+
+}
+
+.car-box {
+
+
+    width:90%;
+
+
+    margin:50px auto;
+
+
+    padding:30px;
+
+
+    background:white;
+
+
+    border-radius:15px;
+
+
+    box-shadow:
+    0 5px 20px rgba(0,0,0,.08);
+
+
+}
